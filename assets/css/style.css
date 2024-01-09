@@ -591,3 +591,36 @@ a {
 .news__item-link:hover {
   color: var(--bg-color);
 }
+
+/* Appoinment */
+.appointment {
+  margin-bottom: 170px;
+}
+
+.apm__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  padding: 100px 0;
+  background: #f6fbff;
+  text-align: center;
+}
+.apm__heading {
+  position: relative;
+}
+.apm__heading::after {
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+  transform: translateX(-50%);
+  content: "";
+  display: inline-block;
+  width: 136px;
+  height: 2px;
+  background-color: var(--bg-color);
+}
+.apm__desc {
+  max-width: 617px;
+  width: 617px;
+}
